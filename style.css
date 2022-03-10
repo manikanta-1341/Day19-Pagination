@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+    color: white;
+}
+h1,p{
+    text-align: center;
+}
+.table{
+    border: 1px solid black;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+.btns{
+    margin: 50px 0;
+    text-align:center;
+}
+.btn,.first_btn,.last_btn,.prev_btn,.next_btn{
+    border:none;
+    font-size: 20px;
+}
+.btn:hover,.btn:focus,.first_btn:hover,.last_btn:hover,.prev_btn:hover,.next_btn:hover,.first_btn:focus,.last_btn:focus,.prev_btn:focus,.next_btn:focus{
+    background-color:grey;
+    color:white
+}
+@media (min-width: 320px) {
+    .btn{
+        margin-bottom: 30px;
+    }
+}
